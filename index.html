@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix-Clone</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+   <div class="header">
+    <nav>
+      <img src="images/logo.png"  class="logo">
+           <div>
+            <button class="languge-btn"> English <img src="images/down-icon.png" alt=""></button>
+            <button>Sign IN</button>
+           </div>
+     </nav>
+
+     <div class="header-contert">
+        <h1>Unlimted Movies,Tv Shows And More.</h1>
+        <h3>Watch Anywhere.Cancel anytime</h3>
+        <p>Ready to watch? Enter Your Email To Create or restart your membership <p>
+
+                <form class="email-signup">
+                   <input type="email" placeholder="Email Address" required>
+                  <button type="submit">Get Started</button>
+                </form>
+            </div>
+           </div>
+      <!--Feature-->
+
+     <div class="feature">
+
+        <div class="row">
+            <div class="text-col">
+                <h2>Enjoy On Your Tv</h2>
+                <p>Watch on Smart Tvs, Playstation,Xbox,
+                    Chromecast,Apple Tv,Blu-rav
+                   Player and more</p>
+            </div>
+            <div class="img-col">
+                <img src="/images/feature-1.png" >
+            </div>
+        </div>
+     
+
+     <!--Second-->
+     
+     <div class="row">
+        <div class="img-col">
+            <img src="images/feature-2.png" >
+        </div>
+          <div class="text-col">
+             <h2>Download your shows to watch offline</h2>
+              <p>Save your favourites easily
+             and always have something to watch.</p>
+          </div>
+       </div>
+    
+
+    <!--third-->
+    <div class="row">
+        <div class="text-col">
+            <h2>Watch everywhere</h2>
+            <p>Stream unlimited movies and TV 
+             shows on your phone, tablet, laptop, and TV.</p>
+        </div>
+        <div class="img-col">
+            <img src="/images/feature-3.png" >
+        </div>
+    </div>
+const data = [
+{
+    url: "/images/feature-3.png",
+    heading: "first card",
+    desc: "afjana afanjsfn afanjgajg"
+},
+{
+    url: "/images/feature-3.png",
+    heading: "first card",
+    desc: "afjana afanjsfn afanjgajg"
+},
+{
+    url: "/images/feature-3.png",
+    heading: "first card",
+    desc: "afjana afanjsfn afanjgajg"
+},{
+    url: "/images/feature-3.png",
+    heading: "first card",
+    desc: "afjana afanjsfn afanjgajg"
+},{
+    url: "/images/feature-3.png",
+    heading: "first card",
+    desc: "afjana afanjsfn afanjgajg"
+},
+{
+    url: "/images/feature-3.png",
+    heading: "first card",
+    desc: "afjana afanjsfn afanjgajg"
+},{
+    url: "/images/feature-3.png",
+    heading: "first card",
+    desc: "afjana afanjsfn afanjgajg"
+},{
+    url: "/images/feature-3.png",
+    heading: "first card",
+    desc: "afjana afanjsfn afanjgajg"
+}
+]
+    <!--Four-->
+       data.map((itrm) => {
+        <div class="row">
+            <div class="img-col">
+                <img src={item.url} >
+            </div>
+              <div class="text-col">
+                 <h2>{item.heading}</h2>
+                  <p>{item.desc}</p>
+              </div>
+           </div>
+       })
+    
+    
+    </div>
+
+    <!--FaQ-->
+
+    <div class="faq">
+        <h2>Frequently Ask Questions</h2>
+        <ul class="accordion">
+            <li>
+                <input type="radio" name="accordio" id="first">
+                <label for="first">What is Netflix ?</label>
+
+                <div class="content">
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                         elit. Animi, pariatur! Maiores maxime nesciunt repudiandae consequatur
+                          officiis ad fuga obcaecati dolore voluptas? Aliquam ipsa nobis
+                         possimus repudiandae aspernatur! Tenetur, et.</p>
+                </div>
+            </li>
+            <!--Second id-->
+            <li>
+                <input type="radio" name="accordio" id="second">
+                <label for="second">How Much Does Netflix Cost ?</label>
+
+                <div class="content">
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                         elit. Animi, pariatur! Maiores maxime nesciunt repudiandae consequatur
+                         </p>
+                </div>
+            </li>
+             <!--Third id-->
+             <li>
+                <input type="radio" name="accordio" id="third">
+                <label for="third">Where I Can Watch ?</label>
+
+                <div class="content">
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                         elit. Animi, pariatur! Maiores maxime nesciunt repudiandae consequatur
+                         </p>
+                </div>
+            </li>
+                 
+            <!--Four id-->
+            <li>
+                <input type="radio" name="accordio" id="four">
+                <label for="four">How Do I Cancel ?</label>
+
+                <div class="content">
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                         elit. Animi, pariatur! Maiores maxime nesciunt repudiandae consequatur
+                         </p>
+                </div>
+            </li>
+
+            <!--Five id-->
+                 
+            <li>
+                <input type="radio" name="accordio" id="five">
+                <label for="four">What can I Watch Neteflix ?</label>
+
+                <div class="content">
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                         elit. Animi, pariatur! Maiores maxime nesciunt repudiandae consequatur
+                         </p>
+                </div>
+            </li>
+
+           <!--Six id-->
+
+            <li>
+                <input type="radio" name="accordio" id="Six">
+                <label for="Six"> Is Neteflix good for Kids?</label>
+                <div class="content">
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                         elit. Animi, pariatur! Maiores maxime nesciunt repudiandae consequatur
+                         </p>
+                </div>
+            </li>
+
+    </ul>
+     <small>Ready to watch? Enter your email to 
+     create or restart your membership.</small>
+     <form class="email-signup">
+        <input type="email" placeholder="Email Address" required>
+       <button type="submit">Get Started</button>
+     </form>
+</div>
+    
+    <!-- Footer-->
+
+    <div class="footer">
+        <h2>Question? call 000-000-000-000</h2>
+
+        <div class="row">
+            <div class="col">
+                <a href="#">FAQ</a>
+                <a href="#">Investor Relation</a>
+                <a href="#">Pravicy</a>
+                <a href="#">Speed Test</a>
+            </div>
+
+            <div class="col">
+                <a href="#">Help Center</a>
+                <a href="#">Jobs</a>
+                <a href="#">Cooking Preference</a>
+                <a href="#">Legal Notices</a>
+            </div>
+
+            <div class="col">
+                <a href="#">Account</a>
+                <a href="#">Way To Watch</a>
+                <a href="#">Corporate Inforamtion</a>
+                <a href="#">Only on Neteflix</a>
+            </div>
+
+            <div class="col">
+                <a href="#">Media center</a>
+                <a href="#">Terms of uses</a>
+                <a href="#">Contact Us</a>
+                
+            </div>
+
+        </div>
+        <button class="languge-btn">English <img src="images/down-icon.png" alt=""></button>
+        <p class="copyright-txt"> Netflix India </p>
+    </div>
+</body>
+</html>
